@@ -34,28 +34,28 @@
 }
 
 .container:hover p {
-    opacity: 0;
+  opacity: 0;
 }
 
 .container:hover .div-hover {
-    width: 300px;
-    opacity: 1;
+  width: 300px;
+  opacity: 1;
 }
 
 .link {
-    display: block;
-    color: #ffffff;
-    font-size: 40px;
-    font-weight: 500;
-    text-decoration: none;
-    text-transform: uppercase;
-    line-height: 1.8; 
+  display: block;
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 1.8;
 }
 
 .link:hover {
-    color: orangered;
+  color: orangered;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
