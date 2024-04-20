@@ -1,0 +1,61 @@
+.container {
+  display: block;
+  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(102, 98, 98, 0.9);
+  width: 3%;
+  height: 100%;
+  opacity: 1;
+}
+
+.container p {
+  display: block;
+  position: absolute;
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 300;
+  top: 50%;
+  left: -90px;
+  transform: rotate(90deg);
+}
+
+.div-hover {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  opacity: 0;
+  display: block;
+  background-color: rgba(102, 98, 98, 0.9);
+}
+
+.container:hover p {
+    opacity: 0;
+}
+
+.container:hover .div-hover {
+    width: 300px;
+    opacity: 1;
+}
+
+.link {
+    display: block;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 1.8; 
+}
+
+.link:hover {
+    color: orangered;
+}
+
+ul {
+    list-style: none;
+}
